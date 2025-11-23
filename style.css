@@ -420,12 +420,7 @@ nav {
   color: #f4b400;
 }
 
-copyright {
-  text-align: center;
-  margin-top: 15px;
-  color: #bbb;
-  font-size: 14px;
-}
+
 
 @media (max-width: 600px) {
   .menu-card {
@@ -444,11 +439,8 @@ copyright {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 1024px) {
-  .category-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+
+
 @media (max-width: 600px) {
   #hero img {
     width: 90%;

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery web page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- #header -->
+    <header>
+      <nav>
+        <div class="logo">FoodPanda</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#restaurants">restaurants</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu">☰</button>
+      </nav>
+    </header>
+
+    <!-- #main section -->
+    <main id="main">
+      <section id="hero">
+        <div class="hero-text">
+          <h1>Fresh Food Delivered To Your Doorstep</h1>
+          <p>
+            Your favorite meals delivered hot and fast. Explore top restaurants
+            near you.
+          </p>
+          <button class="btn-1">Order Now</button>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/food plate.avif" alt="Delicious food plate" />
+        </div>
+      </section>
+
+      <section id="categories">
+        <h2>Popular Categories</h2>
+
+        <div class="category-grid">
+          <article class="category-card">
+            <img src="images/pizza.avif" alt="Pizza" />
+            <p>Pizza</p>
+          </article>
+
+          <article class="category-card">
+            <img src="images/burger.avif" alt="Burger" />
+            <p>Burgers</p>
+          </article>
+
+          <article class="category-card">
+            <img src="images/indianfood.avif" alt="Indian Food" />
+            <p>Indian</p>
+          </article>
+
+          <article class="category-card">
+            <img src="images/desserts.avif" alt="Desserts" />
+            <p>Desserts</p>
+          </article>
+
+          <article class="category-card">
+            <img src="images/chinese.avif" alt="Chinese Food" />
+            <p>Chinese</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="restaurants">
+        <h2>Top Restaurants Near You</h2>
+
+        <div class="restaurant-grid">
+          <article class="restaurant-card">
+            <img src="images/r1.jpg" alt="Restaurant" />
+            <h3>Spice Villa</h3>
+            <p>North Indian • ⭐ 4.5</p>
+          </article>
+
+          <article class="restaurant-card">
+            <img src="images/r2.jpg" alt="Restaurant" />
+            <h3>Bella Pizzeria</h3>
+            <p>Italian • ⭐ 4.7</p>
+          </article>
+
+          <article class="restaurant-card">
+            <img src="images/r3.jpg" alt="Restaurant" />
+            <h3>Burger Hub</h3>
+            <p>Fast Food • ⭐ 4.2</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="featured">
+        <h2>Featured Dishes</h2>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="images/d1.jpg" alt="Paneer Tikka" />
+            <div>
+              <h3>Paneer Tikka</h3>
+              <p>₹199</p>
+              <button>Add</button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="images/d2.jpg" alt="Margherita Pizza" />
+            <div>
+              <h3>Margherita Pizza</h3>
+              <p>₹299</p>
+              <button>Add</button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="images/d3.jpg" alt="Pasta" />
+            <div>
+              <h3>Creamy Pasta</h3>
+              <p>₹249</p>
+              <button>Add</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <h2>Promo Offers</h2>
+
+        <div class="pricing-grid">
+          <article class="plan-card">
+            <span class="icon">🎉</span>
+            <p>Get 30% OFF on your first order!</p>
+          </article>
+
+          <article class="plan-card">
+            <span class="icon">🚚</span>
+            <p>Free delivery on orders above ₹300</p>
+          </article>
+
+          <article class="plan-card">
+            <span class="icon">🍔</span>
+            <p>Buy 1 Get 1 Free on Burgers every Friday</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+
+        <div class="testimonials-grid">
+          <article class="test-card">
+            <img src="images/h1.avif" alt="Customer photo" />
+            <div class="stars">★★★★★</div>
+            <p class="review">
+              “The food arrives fresh and on time every single time. Absolutely
+              reliable service!”
+            </p>
+            <h4 class="name">Bella</h4>
+          </article>
+
+          <article class="test-card">
+            <img src="images/h2.avif" alt="Customer photo" />
+            <div class="stars">★★★★★</div>
+            <p class="review">
+              “Great quality restaurants and amazing offers. I save money and
+              enjoy great food!”
+            </p>
+            <h4 class="name">Kendall</h4>
+          </article>
+
+          <article class="test-card">
+            <img src="images/h3.avif" alt="Customer photo" />
+            <div class="stars">★★★★★</div>
+            <p class="review">
+              “User-friendly and fast delivery! This app has made ordering food
+              so convenient.”
+            </p>
+            <h4 class="name">James</h4>
+          </article>
+        </div>
+      </section>
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" rows="4" placeholder="Your message..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+      
+    <!-- footer -->
+     <footer id="footer-section">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>Cities Served</h3>
+      <ul>
+        <li>New Delhi</li>
+        <li>Mumbai</li>
+        <li>Bangalore</li>
+        <li>Chennai</li>
+        <li>Kolkata</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p>Email: support@foodexpress.com</p>
+      <p>Phone: +91 98765 43210</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <span>🌐</span>
+        <span>📸</span>
+        <span>🐦</span>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="copyright">© 2025 FoodPanda. All rights reserved.</p>
+</footer>
+
+    
+    
+  </body>
+</html>
